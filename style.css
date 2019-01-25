@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body{
+    font-family: 'Merriweather', serif;
+    text-shadow: 0 5px 0 rgba(0, 0, 0, 0.623);
+    background-image: url(fondo.jpg);
+    background-size: 60%;
+    
+}
+h1{
+    font-family: 'Merriweather', serif;
+    
+    font-size: 5em;
+    margin-bottom:2%;
+    margin-top:2%;
+    margin-left:32.5%;
+    color:#ffffff;
+    float:center;
+}
+
+#movil{
+    width:40%;
+    height: 2em;
+    font-family: 'Merriweather', serif;
+    margin:0 0 5% 25%;
+}
+#cap{
+    width:40%;
+    height: 2nem;
+    margin:0 0 10% 25%;
+    font-family:'Merriweather', serif;
+}
+#btn1{
+    width:30%;
+    height:3em;
+    background-color: rgb(0, 0, 0);
+    border:white solid;
+    margin:0 0 10% 30%;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size:1em;
+    color:white;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 3fr ;
+    grid-template-areas:"footer footer footer";
+}
+.item{
+    display: grid;
+    
+}
+
+.item0, .item4{
+    grid-column: 1/-1;
+}
+
+.itemselect{
+    grid-column: 1/-1;
+}
+.item2{
+    justify-content: center;
+  align-items: center;
+  background-color: #ffffff6d;
+  border-radius: black solid 2px;
+  
+}
+
+.item3{
+    margin:0%;
+    padding:0%;
+    align-self: start;
+}
+
+
+.item4{
+    justify-content: flex-start;
+    display: inline-block;
+    grid-column: 1/-1
+}
+
+#foto{
+    float:left;
+}
+
+h2{
+    margin-top:2%;
+    margin-left: 30%;
+    font-size:2em;
+    font-family: 'Merryweather';
+    text-align: center;
+    float:left;
+    color: #828282;
+    align-self: start;
+}
+
+#carro{
+    width: 20%;
+    margin:0%;
+    padding:0%;
+    margin-left:25%;
+    border: white solid;
+    background-color: #ffffff;
+    border-radius: 80%;
+    
+}
+#resultado{
+    overflow: hidden;
+    margin-left:20%;
+    text-shadow: 0 5px 0 rgba(231, 231, 231, 0);
+    color: #ffffff;
+}
+
+#caja3{
+    width:100%;
+}
